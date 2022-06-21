@@ -7,7 +7,7 @@ cap = cv2.VideoCapture('http://<DROIDCAM_IP>/mjpegfeed')
 
 while True:
     ret, frame = cap.read()
-    if ret && frame is not None:
+    if ret and frame is not None:
         cv2.imshow("frame", frame)
     cv2.waitKey(1)
 ```
