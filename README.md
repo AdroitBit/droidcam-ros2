@@ -3,7 +3,7 @@ This ROS package is simply inspired by this python code.
 ```python
 import cv2
 
-cap = cv2.VideoCapture('http://<DROIDCAM_IP>/mjpegfeed')
+cap = cv2.VideoCapture('http://<DROIDCAM_IP>:4747/mjpegfeed')
 
 while True:
     ret, frame = cap.read()
